@@ -1,0 +1,46 @@
+html {
+    font-family: sans-serif;
+    min-height:100%;
+    position:relative;
+}
+
+body {
+   margin:0;
+   padding-bottom:80px;   /* Height of the footer */
+   height:100%;
+}
+
+.headline {
+    font-family: 'Londrina Solid', cursive;
+    font-size: x-large;
+}
+
+.link {
+    color: black;
+}
+
+.imgContainer {
+    padding: 0rem 3rem;    
+}
+
+img {
+    width: 100%;
+    height: 10rem;
+    object-position: top;
+    object-fit: scale-down;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:80px;   /* Height of the footer */
+ }
+
+footer p {
+    font-size: small;
+}
